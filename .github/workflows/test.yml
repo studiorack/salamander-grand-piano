@@ -13,8 +13,7 @@ jobs:
 
       - name: Install
         run: |
-          pip install git+git://github.com/kmturley/sfzlint.git
-
+          pip install git+git://github.com/jisaacstone/sfzlint.git
       - name: Lint
         run: |
-          sfzlint "Salamander Grand Piano V3.sfz"
+          sfzlint "${{ github.event.repository.name }}.sfz"
