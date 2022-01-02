@@ -16,4 +16,4 @@ jobs:
           pip install git+git://github.com/jisaacstone/sfzlint.git
       - name: Lint
         run: |
-          sfzlint "${{ github.event.repository.name }}.sfz"
+          sfzlint .
