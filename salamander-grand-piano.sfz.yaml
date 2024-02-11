@@ -1,0 +1,4322 @@
+elements:
+  - type: element
+    name: control
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: default_path
+          value: Samples/
+      - type: element
+        name: opcode
+        attributes:
+          name: label_cc7
+          value: Vol
+      - type: element
+        name: opcode
+        attributes:
+          name: label_cc10
+          value: Pan
+      - type: element
+        name: opcode
+        attributes:
+          name: label_cc64
+          value: Sus Pedal
+      - type: element
+        name: opcode
+        attributes:
+          name: label_cc20
+          value: String Res
+      - type: element
+        name: opcode
+        attributes:
+          name: label_cc21
+          value: Hammer Noise
+      - type: element
+        name: opcode
+        attributes:
+          name: label_cc22
+          value: Pedal Noise
+      - type: element
+        name: opcode
+        attributes:
+          name: label_cc72
+          value: Release
+      - type: element
+        name: opcode
+        attributes:
+          name: label_cc98
+          value: Offset
+      - type: element
+        name: opcode
+        attributes:
+          name: label_cc99
+          value: Veltrack
+      - type: element
+        name: opcode
+        attributes:
+          name: set_cc7
+          value: '100'
+      - type: element
+        name: opcode
+        attributes:
+          name: set_hdcc10
+          value: '0.5'
+      - type: element
+        name: opcode
+        attributes:
+          name: set_hdcc20
+          value: '0.5'
+      - type: element
+        name: opcode
+        attributes:
+          name: set_hdcc21
+          value: '0.5'
+      - type: element
+        name: opcode
+        attributes:
+          name: set_hdcc22
+          value: '0.5'
+      - type: element
+        name: opcode
+        attributes:
+          name: set_hdcc72
+          value: '0.5'
+      - type: element
+        name: opcode
+        attributes:
+          name: set_hdcc98
+          value: '0'
+      - type: element
+        name: opcode
+        attributes:
+          name: set_hdcc99
+          value: '0.73'
+  - type: element
+    name: global
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: amplitude_oncc7
+          value: '100'
+      - type: element
+        name: opcode
+        attributes:
+          name: amplitude_curvecc7
+          value: '4'
+      - type: element
+        name: opcode
+        attributes:
+          name: pan_oncc10
+          value: '100'
+      - type: element
+        name: opcode
+        attributes:
+          name: pan_curvecc10
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: amp_veltrack_oncc99
+          value: '-100'
+      - type: element
+        name: opcode
+        attributes:
+          name: amp_veltrack_curvecc99
+          value: '2'
+      - type: element
+        name: opcode
+        attributes:
+          name: ampeg_release_oncc72
+          value: '2'
+      - type: element
+        name: opcode
+        attributes:
+          name: ampeg_attack_oncc98
+          value: '0.001'
+      - type: element
+        name: opcode
+        attributes:
+          name: ampeg_attack_curvecc98
+          value: '7'
+      - type: element
+        name: opcode
+        attributes:
+          name: note_polyphony
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: off_time
+          value: '0.5'
+      - type: element
+        name: opcode
+        attributes:
+          name: sw_lokey
+          value: C0
+      - type: element
+        name: opcode
+        attributes:
+          name: sw_hikey
+          value: C
+      - type: element
+        name: opcode
+        attributes:
+          name: sw_default
+          value: C0
+  - type: element
+    name: master
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: sw_last
+          value: C0
+      - type: element
+        name: opcode
+        attributes:
+          name: sw_label
+          value: Natural
+  - {}
+  - type: element
+    name: group
+    elements: []
+  - {}
+  - type: element
+    name: group
+    elements: []
+  - {}
+  - type: element
+    name: group
+    elements: []
+  - {}
+  - type: element
+    name: group
+    elements: []
+  - {}
+  - type: element
+    name: group
+    elements: []
+  - {}
+  - type: element
+    name: group
+    elements: []
+  - {}
+  - type: element
+    name: group
+    elements: []
+  - {}
+  - type: element
+    name: group
+    elements: []
+  - {}
+  - type: element
+    name: group
+    elements: []
+  - {}
+  - type: element
+    name: group
+    elements: []
+  - {}
+  - type: element
+    name: group
+    elements: []
+  - {}
+  - type: element
+    name: group
+    elements: []
+  - {}
+  - type: element
+    name: group
+    elements: []
+  - {}
+  - type: element
+    name: group
+    elements: []
+  - {}
+  - type: element
+    name: group
+    elements: []
+  - {}
+  - type: element
+    name: group
+    elements: []
+  - {}
+  - type: element
+    name: master
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: sw_last
+          value: C
+      - type: element
+        name: opcode
+        attributes:
+          name: sw_label
+          value: Retuned
+  - {}
+  - type: element
+    name: group
+    elements: []
+  - {}
+  - type: element
+    name: group
+    elements: []
+  - {}
+  - type: element
+    name: group
+    elements: []
+  - {}
+  - type: element
+    name: group
+    elements: []
+  - {}
+  - type: element
+    name: group
+    elements: []
+  - {}
+  - type: element
+    name: group
+    elements: []
+  - {}
+  - type: element
+    name: group
+    elements: []
+  - {}
+  - type: element
+    name: group
+    elements: []
+  - {}
+  - type: element
+    name: group
+    elements: []
+  - {}
+  - type: element
+    name: group
+    elements: []
+  - {}
+  - type: element
+    name: group
+    elements: []
+  - {}
+  - type: element
+    name: group
+    elements: []
+  - {}
+  - type: element
+    name: group
+    elements: []
+  - {}
+  - type: element
+    name: group
+    elements: []
+  - {}
+  - type: element
+    name: group
+    elements: []
+  - {}
+  - type: element
+    name: group
+    elements: []
+  - {}
+  - type: element
+    name: global
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: amplitude_oncc7
+          value: '100'
+      - type: element
+        name: opcode
+        attributes:
+          name: amplitude_curvecc7
+          value: '4'
+      - type: element
+        name: opcode
+        attributes:
+          name: pan_oncc10
+          value: '100'
+      - type: element
+        name: opcode
+        attributes:
+          name: pan_curvecc10
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: trigger
+          value: release
+      - type: element
+        name: opcode
+        attributes:
+          name: note_polyphony
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: off_time
+          value: '0.5'
+  - type: element
+    name: master
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: locc20
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: amplitude_oncc20
+          value: '200'
+  - type: element
+    name: group
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: group_label
+          value: harmL
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '-4'
+      - type: element
+        name: opcode
+        attributes:
+          name: amp_veltrack
+          value: '94'
+      - type: element
+        name: opcode
+        attributes:
+          name: rt_decay
+          value: '6'
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '45'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '01'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '21'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '22'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '21'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmLA0.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '02'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '23'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '25'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '24'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmLC1.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '03'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '26'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '28'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '27'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmLD#1.ogg
+  - type: element
+    name: group
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: group_label
+          value: harmL
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '-4'
+      - type: element
+        name: opcode
+        attributes:
+          name: amp_veltrack
+          value: '94'
+      - type: element
+        name: opcode
+        attributes:
+          name: rt_decay
+          value: '7'
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '45'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '04'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '29'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '31'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '30'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmLF#1.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '05'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '32'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '34'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '33'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmLA1.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '06'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '35'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '37'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '36'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmLC2.ogg
+  - type: element
+    name: group
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: group_label
+          value: harmL
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '-4'
+      - type: element
+        name: opcode
+        attributes:
+          name: amp_veltrack
+          value: '90'
+      - type: element
+        name: opcode
+        attributes:
+          name: rt_decay
+          value: '8'
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '45'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '07'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '38'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '40'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '39'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmLD#2.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '08'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '41'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '43'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '42'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmLF#2.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '09'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '44'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '46'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '45'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmLA2.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '10'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '47'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '49'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '48'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmLC3.ogg
+  - type: element
+    name: group
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: group_label
+          value: harmL
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '-4'
+      - type: element
+        name: opcode
+        attributes:
+          name: amp_veltrack
+          value: '90'
+      - type: element
+        name: opcode
+        attributes:
+          name: rt_decay
+          value: '9'
+      - type: element
+        name: opcode
+        attributes:
+          name: lovel
+          value: '45'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '11'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '50'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '52'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '51'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmLD#3.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '12'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '53'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '55'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '54'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmLF#3.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '13'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '56'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '58'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '57'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmLA3.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '14'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '59'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '61'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '60'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmLC4.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '15'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '62'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '64'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '63'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmLD#4.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '16'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '65'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '67'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '66'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmLF#4.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '17'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '68'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '70'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '69'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmLA4.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '18'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '71'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '73'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '72'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmLC5.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '19'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '74'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '76'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '75'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmLD#5.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '20'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '77'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '79'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '78'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmLF#5.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '21'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '80'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '82'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '81'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmLA5.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '22'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '83'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '85'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '84'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmLC6.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '23'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '86'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '88'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '87'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmLD#6.ogg
+  - type: element
+    name: group
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: group_label
+          value: harmS
+      - type: element
+        name: opcode
+        attributes:
+          name: amp_veltrack
+          value: '95'
+      - type: element
+        name: opcode
+        attributes:
+          name: rt_decay
+          value: '7'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: '44'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '01'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '21'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '22'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '21'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmSA0.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '02'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '23'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '25'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '24'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmSC1.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '03'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '26'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '28'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '27'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmSD#1.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '04'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '29'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '31'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '30'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmSF#1.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '05'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '32'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '34'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '33'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmSA1.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '06'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '35'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '37'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '36'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmSC2.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '07'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '38'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '40'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '39'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmSD#2.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '08'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '41'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '43'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '42'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmSF#2.ogg
+  - type: element
+    name: group
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: group_label
+          value: harmS
+      - type: element
+        name: opcode
+        attributes:
+          name: amp_veltrack
+          value: '90'
+      - type: element
+        name: opcode
+        attributes:
+          name: rt_decay
+          value: '7'
+      - type: element
+        name: opcode
+        attributes:
+          name: hivel
+          value: '44'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '09'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '44'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '46'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '45'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmSA2.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '10'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '47'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '49'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '48'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmSC3.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '11'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '50'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '52'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '51'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmSD#3.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '12'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '53'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '55'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '54'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmSF#3.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '13'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '56'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '58'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '57'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmSA3.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '14'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '59'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '61'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '60'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmSC4.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '15'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '62'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '64'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '63'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmSD#4.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '16'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '65'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '67'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '66'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmSF#4.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '17'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '68'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '70'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '69'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmSA4.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '18'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '71'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '73'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '72'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmSC5.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '19'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '74'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '76'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '75'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmSD#5.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '20'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '77'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '79'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '78'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmSF#5.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '21'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '80'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '82'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '81'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmSA5.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '22'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '83'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '85'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '84'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmSC6.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '23'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '86'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '88'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '87'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmSD#6.ogg
+  - type: element
+    name: group
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: group_label
+          value: harmV3
+      - type: element
+        name: opcode
+        attributes:
+          name: amp_veltrack
+          value: '96'
+      - type: element
+        name: opcode
+        attributes:
+          name: rt_decay
+          value: '2'
+      - type: element
+        name: opcode
+        attributes:
+          name: group
+          value: '5'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '01'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '21'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '22'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '21'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmV3A0.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '02'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '23'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '25'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '24'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmV3C1.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '03'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '26'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '28'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '27'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmV3D#1.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '04'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '29'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '31'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '30'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmV3F#1.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '05'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '32'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '34'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '33'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmV3A1.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '06'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '35'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '37'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '36'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmV3C2.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '07'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '38'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '40'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '39'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmV3D#2.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '08'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '41'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '43'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '42'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmV3F#2.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '09'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '44'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '46'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '45'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmV3A2.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '10'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '47'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '49'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '48'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmV3C3.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '11'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '50'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '52'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '51'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmV3D#3.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '12'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '53'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '55'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '54'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmV3F#3.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '13'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '56'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '58'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '57'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmV3A3.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '14'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '59'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '61'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '60'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmV3C4.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '15'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '62'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '64'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '63'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmV3D#4.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '16'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '65'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '67'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '66'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmV3F#4.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '17'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '68'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '70'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '69'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmV3A4.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '18'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '71'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '73'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '72'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmV3C5.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '19'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '74'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '76'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '75'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmV3D#5.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '20'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '77'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '79'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '78'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmV3F#5.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '21'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '80'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '82'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '81'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmV3A5.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '22'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '83'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '85'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '84'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmV3C6.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '23'
+      - type: element
+        name: opcode
+        attributes:
+          name: lokey
+          value: '86'
+      - type: element
+        name: opcode
+        attributes:
+          name: hikey
+          value: '88'
+      - type: element
+        name: opcode
+        attributes:
+          name: pitch_keycenter
+          value: '87'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: harmV3D#6.ogg
+  - type: element
+    name: master
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: locc21
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: amplitude_oncc21
+          value: '200'
+  - type: element
+    name: group
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: group_label
+          value: rel
+      - type: element
+        name: opcode
+        attributes:
+          name: amp_veltrack
+          value: '82'
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '-37'
+      - type: element
+        name: opcode
+        attributes:
+          name: rt_decay
+          value: '2'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '01'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '21'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel1.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '02'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '22'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel2.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '03'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '23'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel3.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '04'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '24'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel4.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '05'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '25'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel5.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '06'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '26'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel6.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '07'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '27'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel7.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '08'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '28'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel8.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '09'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '29'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel9.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '10'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '30'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel10.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '11'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '31'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel11.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '12'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '32'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel12.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '13'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '33'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel13.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '14'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '34'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel14.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '15'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '35'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel15.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '16'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '36'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel16.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '17'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '37'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel17.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '18'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '38'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel18.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '19'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '39'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel19.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '20'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '40'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel20.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '21'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '41'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel21.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '22'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '42'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel22.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '23'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '43'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel23.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '24'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '44'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel24.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '25'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '45'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel25.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '26'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '46'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel26.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '27'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '47'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel27.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '28'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '48'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel28.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '29'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '49'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel29.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '30'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '50'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel30.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '31'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '51'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel31.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '32'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '52'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel32.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '33'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '53'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel33.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '34'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '54'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel34.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '35'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '55'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel35.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '36'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '56'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel36.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '37'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '57'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel37.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '38'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '58'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel38.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '39'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '59'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel39.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '40'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '60'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel40.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '41'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '61'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel41.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '42'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '62'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel42.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '43'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '63'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel43.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '44'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '64'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel44.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '45'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '65'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel45.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '46'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '66'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel46.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '47'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '67'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel47.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '48'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '68'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel48.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '49'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '69'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel49.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '50'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '70'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel50.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '51'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '71'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel51.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '52'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '72'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel52.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '53'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '73'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel53.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '54'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '74'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel54.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '55'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '75'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel55.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '56'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '76'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel56.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '57'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '77'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel57.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '58'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '78'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel58.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '59'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '79'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel59.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '60'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '80'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel60.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '61'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '81'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel61.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '62'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '82'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel62.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '63'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '83'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel63.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '64'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '84'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel64.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '65'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '85'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel65.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '66'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '86'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel66.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '67'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '87'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel67.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '68'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '88'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel68.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '69'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '89'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel69.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '70'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '90'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel70.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '71'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '91'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel71.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '72'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '92'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel72.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '73'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '93'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel73.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '74'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '94'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel74.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '75'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '95'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel75.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '76'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '96'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel76.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '77'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '97'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel77.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '78'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '98'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel78.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '79'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '99'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel79.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '80'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '100'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel80.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '81'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '101'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel81.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '82'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '102'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel82.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '83'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '103'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel83.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '84'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '104'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel84.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '85'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '105'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel85.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '86'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '106'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel86.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '87'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '107'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel87.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '88'
+      - type: element
+        name: opcode
+        attributes:
+          name: key
+          value: '108'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: rel88.ogg
+  - type: element
+    name: global
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: amplitude_oncc7
+          value: '100'
+      - type: element
+        name: opcode
+        attributes:
+          name: amplitude_curvecc7
+          value: '4'
+      - type: element
+        name: opcode
+        attributes:
+          name: pan_oncc10
+          value: '100'
+      - type: element
+        name: opcode
+        attributes:
+          name: pan_curvecc10
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: locc22
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: amplitude_oncc22
+          value: '200'
+  - type: element
+    name: group
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: group_label
+          value: pedalD
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '-20'
+      - type: element
+        name: opcode
+        attributes:
+          name: on_locc64
+          value: '127'
+      - type: element
+        name: opcode
+        attributes:
+          name: on_hicc64
+          value: '127'
+      - type: element
+        name: opcode
+        attributes:
+          name: locc64
+          value: '127'
+      - type: element
+        name: opcode
+        attributes:
+          name: hicc64
+          value: '127'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: lorand
+          value: '0'
+      - type: element
+        name: opcode
+        attributes:
+          name: hirand
+          value: '0.5'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: pedalD1.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '2'
+      - type: element
+        name: opcode
+        attributes:
+          name: lorand
+          value: '0.5'
+      - type: element
+        name: opcode
+        attributes:
+          name: hirand
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: pedalD2.ogg
+  - type: element
+    name: group
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: group_label
+          value: pedalU
+      - type: element
+        name: opcode
+        attributes:
+          name: volume
+          value: '-19'
+      - type: element
+        name: opcode
+        attributes:
+          name: on_locc64
+          value: '0'
+      - type: element
+        name: opcode
+        attributes:
+          name: on_hicc64
+          value: '0'
+      - type: element
+        name: opcode
+        attributes:
+          name: locc64
+          value: '0'
+      - type: element
+        name: opcode
+        attributes:
+          name: hicc64
+          value: '0'
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: lorand
+          value: '0'
+      - type: element
+        name: opcode
+        attributes:
+          name: hirand
+          value: '0.5'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: pedalU1.ogg
+  - type: element
+    name: region
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: region_label
+          value: '2'
+      - type: element
+        name: opcode
+        attributes:
+          name: lorand
+          value: '0.5'
+      - type: element
+        name: opcode
+        attributes:
+          name: hirand
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: sample
+          value: pedalU2.ogg
+  - type: element
+    name: curve
+    elements:
+      - type: element
+        name: opcode
+        attributes:
+          name: curve_index
+          value: '7'
+      - type: element
+        name: opcode
+        attributes:
+          name: v000
+          value: '0'
+      - type: element
+        name: opcode
+        attributes:
+          name: v001
+          value: '1'
+      - type: element
+        name: opcode
+        attributes:
+          name: v127
+          value: '1'
+
